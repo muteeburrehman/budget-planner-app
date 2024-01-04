@@ -1,0 +1,10 @@
+# requirements.txt
+
+# GUI framework
+tkinter
+
+# Database
+sqlite3
+
+# Data visualization
+matplotlib
