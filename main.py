@@ -15,6 +15,7 @@ class BudgetPlannerApp(tk.Tk):
     def __init__(self):
         super().__init__()
         self.title("Budget Planner App")
+        self.attributes('-fullscreen', True)
         self.login_form = LoginForm(self, self.handle_login, self.show_registration_form, self)
 
         # Create and configure menu bar
