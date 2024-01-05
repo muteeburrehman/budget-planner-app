@@ -2,6 +2,7 @@
 import tkinter as tk
 from reports_analytics.controllers import generate_monthly_report
 
+
 class AnalyticsDashboard(tk.Toplevel):
     def __init__(self, parent):
         super().__init__(parent)

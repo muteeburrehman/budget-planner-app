@@ -2,6 +2,7 @@
 import tkinter as tk
 from expense_tracking.controllers import log_daily_expense
 
+
 class ExpenseTrackingForm(tk.Toplevel):
     def __init__(self, parent, expense_categories):
         super().__init__(parent)

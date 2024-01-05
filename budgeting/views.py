@@ -2,6 +2,7 @@
 import tkinter as tk
 from budgeting.controllers import add_expense
 
+
 class BudgetingForm(tk.Toplevel):
     def __init__(self, parent, budget_categories):
         super().__init__(parent)

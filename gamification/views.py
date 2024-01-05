@@ -2,13 +2,14 @@
 import tkinter as tk
 from gamification.controllers import show_player_stats
 
+
 class GamificationDashboard(tk.Toplevel):
-    def __init__(self, parent, player):
-        super().__init__(parent)
+    def __init__(self):
+        super().__init__()
         self.title("Gamification Dashboard")
 
-        self.label_username = tk.Label(self, text=f"Player: {player.username}")
-        self.label_points = tk.Label(self, text=f"Points: {player.points}")
+        self.label_username = tk.Label(self, text=f"Player: Player")
+        self.label_points = tk.Label(self, text=f"Points: Points")
         self.button_show_stats = tk.Button(self, text="Show Player Stats", command=self.show_stats)
 
         self.label_username.pack()

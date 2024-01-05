@@ -1,0 +1,5 @@
+venv
+
+.idea
+
+database/budget_database.db
